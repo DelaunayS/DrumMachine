@@ -1,0 +1,45 @@
+html { 
+  margin:0;
+  padding:0;
+  background: url("../img/DrumMachine-min.jpg") no-repeat center fixed; 
+  -webkit-background-size: cover; /* pour anciens Chrome et Safari */
+  background-size: cover; /* version standardisée */
+}
+
+body{
+    width:95vw; 
+    height:94vh; 
+    font-family: cursive;  
+}
+    
+h1{
+    text-align: center;   
+}
+#piano{
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    height: 50vh;
+}
+
+.drum-pad{
+    height: 50vh;
+    width: 7vw;    
+    text-align: center;
+    font-size:5vw;    
+    &:active{
+        background-color: black;
+        color:white;
+        }
+}
+
+#display-container{
+    display:flex;    
+    justify-content: center;
+    align-items:center;     
+    margin:2vh;         
+    
+    #display{        
+        font-size:5vw;        
+        }
+}
